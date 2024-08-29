@@ -56,13 +56,11 @@ The notebook requires the following Python packages:
 - `matplotlib`
 - `seaborn`
 - `scikit-learn`
-- `tensorflow` (if using neural networks)
-- `xgboost` (if using gradient boosting)
 
 You can install the required packages using pip:
 
 ```bash
-pip install pandas numpy matplotlib seaborn scikit-learn tensorflow xgboost
+pip install pandas numpy matplotlib seaborn scikit-learn
 ```
 
 ## Notebook Structure
@@ -77,7 +75,7 @@ The Jupyter Notebook is structured as follows:
    - **Splitting Data**: Training and testing set creation.
    - **Training the Model**: Implementing and training the logistic regression model.
    - **Hyperparameter Tuning**: Adjusting model parameters for better performance.
-6. **Evaluation**: Assessing model performance using metrics like accuracy, precision, recall, and F1-score.
+6. **Evaluation**: Assessing model performance using metrics like accuracy, roc-curve, precision, recall, and F1-score.
 7. **Results**: Interpretation of the results and insights.
 8. **Conclusion**: Summary of findings and potential next steps.
 
